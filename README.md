@@ -7,7 +7,7 @@ Steps to use my library for calling web services -
 
 Step 1: Add folder in your project RDServerHandlerLib.
 
-Step 2: Add Library search from Xcode Project Build Settings tab to -
+Step 2: Add Library search path as below from Xcode Project Build Settings tab -
 
         $(SRCROOT)/YOUR_PROJECT_NAME/RDServerHandlerLib
 
