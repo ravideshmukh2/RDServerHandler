@@ -7,7 +7,11 @@ Steps to use my library for calling web services -
 
 Step 1: Add folder in your project RDServerHandlerLib.
 
-Step 2: Import library in a class wherever you want to call a web service.
+Step 2: Add Library search from Xcode Project Build Settings tab to -
+
+        $(SRCROOT)/YOUR_PROJECT_NAME/RDServerHandlerLib
+
+Step 3: Import library in a class wherever you want to call a web service.
 - #import "RDServerHandler.h"
 
 Step 3: Add below lines of code to call a service the same class.
