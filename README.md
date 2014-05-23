@@ -14,7 +14,7 @@ Step 2: Add Library search from Xcode Project Build Settings tab to -
 Step 3: Import library in a class wherever you want to call a web service.
 - #import "RDServerHandler.h"
 
-Step 3: Add below lines of code to call a service the same class.
+Step 4: Add below lines of code to call a service the same class.
 
     NSString *stringURL = @"http:YOUR_WEBSERVICE_URL";
     NSString *stringContentType = @"application/json";  // Any content Type value
